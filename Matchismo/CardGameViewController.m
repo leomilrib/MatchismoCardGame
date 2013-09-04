@@ -7,6 +7,7 @@
 
 #import "CardGameViewController.h"
 #import "PlayingCardDeck.h"
+#import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
 
@@ -17,10 +18,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *cardsLeftLabel;
 
-@property (weak, nonatomic) IBOutlet UIButton *btnCard1;
-@property (weak, nonatomic) IBOutlet UIButton *btnCard2;
-@property (weak, nonatomic) IBOutlet UIButton *btnCard3;
-@property (weak, nonatomic) IBOutlet UIButton *btnCard4;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *btnCards;
 
 @end
 
@@ -43,10 +41,15 @@
 }
 
 -(IBAction)redrawCards:(UIButton *)sender {
-  if ([self.deck count] != 0) {
+  if ([self.deck count] > [self.btnCards count]) {
     [self newGame];
   } else {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Play again?" message:@"Wanna play again?" delegate:self cancelButtonTitle:@"Quit" otherButtonTitles:nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Enough Cards..."
+                                                    message:@"Wanna play again?"
+                                                   delegate:self
+                                          cancelButtonTitle:@"Quit"
+                                          otherButtonTitles:nil];
+    
     // optional - add more buttons:
     [alert addButtonWithTitle:@"Yes"];
     [alert show];
@@ -58,17 +61,17 @@
 }
 
 -(void)turnBackCards{
-  self.btnCard1.selected = NO;
-  self.btnCard2.selected = NO;
-  self.btnCard3.selected = NO;
-  self.btnCard4.selected = NO;
+  for (UIButton *btnCard in self.btnCards) {
+    btnCard.selected = NO;
+  }
 }
 
 -(void)setCardsOnTable{
-  [self.btnCard1 setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents] forState:UIControlStateSelected];
-  [self.btnCard2 setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents] forState:UIControlStateSelected];
-  [self.btnCard3 setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents] forState:UIControlStateSelected];
-  [self.btnCard4 setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents] forState:UIControlStateSelected];
+  for (UIButton *btnCard in self.btnCards) {
+    [btnCard setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents]
+             forState:UIControlStateSelected];
+  }
+  [self setCardsLeftLabel];
 }
 
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
@@ -81,7 +84,10 @@
 -(void)newGame{
   [self turnBackCards];
   [self setCardsOnTable];
-  self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
 }
 
+-(void)setCardsLeftLabel{
+  self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
+}
+  
 @end

@@ -13,10 +13,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QqW-jM-N8h">
-                                <rect key="frame" x="53" y="28" width="103" height="136"/>
+                                <rect key="frame" x="20" y="42" width="57" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97573454483695654" green="0.67515510360528419" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="tintColor" red="0.91331946331521741" green="0.38202588132210819" blue="0.14552234856760818" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -29,80 +29,286 @@
                                     <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wRj-8B-67c"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Up6-Fw-UfQ">
-                                <rect key="frame" x="164" y="28" width="103" height="136"/>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="l9u-SZ-cJ0">
+                                <rect key="frame" x="94" y="42" width="57" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97573454483695654" green="0.67515510360528419" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <color key="tintColor" red="0.91331946331521741" green="0.38202588132210819" blue="0.14552234856760818" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.52647333559782616" blue="0.052887522849150929" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="selected" title="A♣">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9qY-eX-eYI"/>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SCP-kl-noL"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NUf-OR-krD">
-                                <rect key="frame" x="53" y="172" width="103" height="136"/>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8zk-C0-WEw">
+                                <rect key="frame" x="167" y="42" width="57" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97573454483695654" green="0.67515510360528419" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <color key="tintColor" red="0.91331946331521741" green="0.38202588132210819" blue="0.14552234856760818" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.52647333559782616" blue="0.052887522849150929" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="selected" title="A♣">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8V4-r5-hJW"/>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ojz-aW-72a"/>
                                 </connections>
                             </button>
-                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0Pm-ch-7rn">
-                                <rect key="frame" x="164" y="172" width="103" height="136"/>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oiJ-4s-pSG">
+                                <rect key="frame" x="243" y="42" width="57" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97573454483695654" green="0.67515510360528419" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <color key="tintColor" red="0.91331946331521741" green="0.38202588132210819" blue="0.14552234856760818" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.52647333559782616" blue="0.052887522849150929" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="selected" title="A♣">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oMP-7k-rar"/>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zkc-3U-Lhe"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fim-Bt-gjS">
+                                <rect key="frame" x="20" y="132" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NB4-t8-tYa"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7Jk-Af-h9I">
+                                <rect key="frame" x="94" y="132" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PyA-bW-2LP"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jQg-hn-jOg">
+                                <rect key="frame" x="167" y="132" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Hld-rJ-TBn"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="k6p-dR-BVu">
+                                <rect key="frame" x="243" y="132" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5sb-93-Y6N"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Hhy-5H-NJr">
+                                <rect key="frame" x="20" y="222" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mCR-oS-nxg"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ibQ-sk-sTh">
+                                <rect key="frame" x="94" y="222" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Vi-5X-vV4"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ze7-md-nOt">
+                                <rect key="frame" x="167" y="222" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K3i-Fo-j0u"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9cW-O8-4i6">
+                                <rect key="frame" x="243" y="222" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="w01-6r-CKi"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2as-sc-Ahz">
+                                <rect key="frame" x="20" y="312" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cV5-hu-Ns2"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Or2-z9-BRf">
+                                <rect key="frame" x="94" y="312" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JNj-gr-e3k"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UFx-ep-JGc">
+                                <rect key="frame" x="167" y="312" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JIO-Dd-pHS"/>
+                                </connections>
+                            </button>
+                            <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FIk-xl-MxV">
+                                <rect key="frame" x="243" y="312" width="57" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="tintColor" red="0.91331946330000002" green="0.38202588129999998" blue="0.14552234859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="A♣">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flipCard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AgM-Rz-WUj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xOo-ku-HcN">
-                                <rect key="frame" x="20" y="326" width="85" height="21"/>
+                                <rect key="frame" x="20" y="450" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aua-xl-b4Q">
-                                <rect key="frame" x="20" y="347" width="85" height="21"/>
+                                <rect key="frame" x="20" y="20" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cards Left: 48" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iN9-qv-Ufu">
-                                <rect key="frame" x="20" y="368" width="109" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cards Left: 52" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iN9-qv-Ufu">
+                                <rect key="frame" x="191" y="450" width="109" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3vD-oh-6uA">
-                                <rect key="frame" x="75" y="401" width="170" height="59"/>
+                                <rect key="frame" x="75" y="407" width="170" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97573454479999999" green="0.67515510359999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.94071582308351953" blue="0.91730236949500266" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Redraw Cards">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -113,19 +319,32 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="btnCard1" destination="QqW-jM-N8h" id="dvm-Oj-jni"/>
-                        <outlet property="btnCard2" destination="Up6-Fw-UfQ" id="UOf-bS-uvM"/>
-                        <outlet property="btnCard3" destination="NUf-OR-krD" id="ZmK-CU-r59"/>
-                        <outlet property="btnCard4" destination="0Pm-ch-7rn" id="bhf-ny-qMR"/>
                         <outlet property="cardsLeftLabel" destination="iN9-qv-Ufu" id="lwW-xc-rzv"/>
                         <outlet property="flipsLabel" destination="xOo-ku-HcN" id="fpk-cZ-Bq0"/>
+                        <outletCollection property="btnCards" destination="QqW-jM-N8h" id="yFz-MD-Wpe"/>
+                        <outletCollection property="btnCards" destination="l9u-SZ-cJ0" id="8rz-B3-jUR"/>
+                        <outletCollection property="btnCards" destination="UFx-ep-JGc" id="pys-zC-ym9"/>
+                        <outletCollection property="btnCards" destination="8zk-C0-WEw" id="8vE-se-YRM"/>
+                        <outletCollection property="btnCards" destination="oiJ-4s-pSG" id="P1N-NR-1mc"/>
+                        <outletCollection property="btnCards" destination="fim-Bt-gjS" id="XQh-zF-nfE"/>
+                        <outletCollection property="btnCards" destination="7Jk-Af-h9I" id="MGb-um-7jO"/>
+                        <outletCollection property="btnCards" destination="jQg-hn-jOg" id="KzZ-Wy-Qr4"/>
+                        <outletCollection property="btnCards" destination="k6p-dR-BVu" id="gfv-aK-UHJ"/>
+                        <outletCollection property="btnCards" destination="Hhy-5H-NJr" id="bbx-7M-xqy"/>
+                        <outletCollection property="btnCards" destination="ibQ-sk-sTh" id="48r-P7-0db"/>
+                        <outletCollection property="btnCards" destination="Ze7-md-nOt" id="voe-S3-POL"/>
+                        <outletCollection property="btnCards" destination="9cW-O8-4i6" id="hTw-31-yIy"/>
+                        <outletCollection property="btnCards" destination="FIk-xl-MxV" id="Cml-rc-vMb"/>
+                        <outletCollection property="btnCards" destination="Or2-z9-BRf" id="4a8-rW-sav"/>
+                        <outletCollection property="btnCards" destination="2as-sc-Ahz" id="pJC-yO-zC9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="158" y="89"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

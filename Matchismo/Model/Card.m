@@ -17,31 +17,31 @@
 @synthesize faceUp = _faceUp;
 @synthesize unplayable = _unplayable;
 
-- (NSString *)contents{
+-(NSString *)contents{
     return _contents;
 }
 
-- (void)setContents:(NSString *)contents{
+-(void)setContents:(NSString *)contents{
     _contents = contents;
 }
 
-- (BOOL)isFaceUp{
+-(BOOL)isFaceUp{
     return _faceUp;
 }
 
-- (void)setFaceUp:(BOOL)faceUp{
+-(void)setFaceUp:(BOOL)faceUp{
     _faceUp = faceUp;
 }
 
-- (BOOL)isUnplayable{
+-(BOOL)isUnplayable{
     return _unplayable;
 }
 
-- (void)setUnplayable:(BOOL)unplayable{
+-(void)setUnplayable:(BOOL)unplayable{
     _unplayable = unplayable;
 }
 
-- (int)match:(NSArray *)otherCards{
+-(int)match:(NSArray *)otherCards{
     int score = 0;
     
     for (Card *card in otherCards){
@@ -49,7 +49,6 @@
             score = 1;
         }
     }
-    
     return score;
 }
 
