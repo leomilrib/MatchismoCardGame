@@ -8,8 +8,11 @@ This is a simple matching card to learn the basics of iOS development.
 ##Game Rules
 
 The rules are really simple.  
-A set of 16 cards are displayed with the backs up on the table (four lines and columns). Your objective is to match cards by suit or rank.  
-You can turn one card face up, look and turn it back with no points cost. Once you find a match, you can turn both cards face up and gain the respective points for the match:
+A set of 16 cards are displayed with the backs up on the table (four lines and
+columns). Your objective is to match cards by suit or rank.
+You can turn one card face up, look and turn it back with no points cost. Once
+you find a match, you can turn both cards face up and gain the respective
+points for the match:
 
  * 8 points for matching cards of the same rank.
  * 2 point for matching cards of the same suit.
@@ -26,10 +29,13 @@ For now, this is the only way to run the game:
 
 ##License
 
-My Xcode isn't configured right yet... so please ignore the copyright note one some files headers, this is an automatic set from the IDE and I promise you that I will remove it from all files reaal soon... =T
+My Xcode isn't configured right yet... so please ignore the copyright note one
+some files headers, this is an automatic set from the IDE and I promise you
+that I will remove it from all files reaal soon... =T
 
 This project is meant to be free as in "free beer" and in "free speech". ;D
 
 ##Contributions
 
-You can contribute for the project in anyway you like. Send me pull request, send me ideas, buy me a beer or coffee, you choose! =D
+You can contribute for the project in anyway you like. Send me pull request,
+send me ideas, buy me a beer or coffee, you choose! =D
