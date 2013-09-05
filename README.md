@@ -26,7 +26,7 @@ For now, this is the only way to run the game:
 
 ##License
 
-My Xcode isn't configured right yet... so please ignore the copyright note one some files headers, this is an automatic set from the IDE... =T
+My Xcode isn't configured right yet... so please ignore the copyright note one some files headers, this is an automatic set from the IDE and I promise you that I will remove it from all files reaal soon... =T
 
 This project is meant to be free as in "free beer" and in "free speech". ;D
 
