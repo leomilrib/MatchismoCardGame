@@ -3,7 +3,6 @@
 //  Matchismo
 //
 //  Created by Leonardo on 9/3/13.
-//  Copyright (c) 2013 leomilrib. All rights reserved.
 //
 
 #import "Card.h"
@@ -26,30 +25,28 @@
 }
 
 -(BOOL)isFaceUp{
-    return _faceUp;
+  return _faceUp;
 }
 
 -(void)setFaceUp:(BOOL)faceUp{
-    _faceUp = faceUp;
+  _faceUp = faceUp;
 }
 
 -(BOOL)isUnplayable{
-    return _unplayable;
+  return _unplayable;
 }
 
 -(void)setUnplayable:(BOOL)unplayable{
-    _unplayable = unplayable;
+  _unplayable = unplayable;
 }
 
 -(int)match:(NSArray *)otherCards{
-    int score = 0;
-    
-    for (Card *card in otherCards){
-        if ([card.contents isEqualToString:self.contents]){
-            score = 1;
-        }
+  int score = 0;
+  for (Card *card in otherCards){
+    if ([card.contents isEqualToString:self.contents]){
+      score = 1;
     }
-    return score;
+  }
+  return score;
 }
-
 @end
