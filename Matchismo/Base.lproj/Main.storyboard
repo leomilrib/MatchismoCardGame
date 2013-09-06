@@ -23,7 +23,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559782616" blue="0.052887522849150929" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -41,7 +41,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -59,7 +59,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -77,7 +77,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -95,7 +95,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -113,7 +113,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -131,7 +131,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -149,7 +149,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -167,7 +167,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -185,7 +185,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -203,7 +203,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -221,7 +221,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -239,7 +239,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -257,7 +257,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -275,7 +275,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -293,7 +293,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.52647333559999998" blue="0.05288752285" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <state key="selected" title="A♣" backgroundImage=" ">
+                                <state key="selected" title="A♠" backgroundImage=" ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>

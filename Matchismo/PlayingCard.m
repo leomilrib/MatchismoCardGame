@@ -47,9 +47,11 @@
 -(int)match:(NSArray *)otherCards{
   int score = 0;
   
-  for (Card *card in otherCards){
-    if ([card.contents isEqualToString:self.contents]){
+  for (PlayingCard *card in otherCards){
+    if ([card.suit isEqualToString:self.suit]){
       score = 1;
+    } else if (card.rank == self.rank){
+      score = 4;
     }
   }
   

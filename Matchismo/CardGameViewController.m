@@ -11,7 +11,6 @@
 
 @interface CardGameViewController ()
 
-@property (strong, nonatomic) PlayingCardDeck *deck;
 @property (strong, nonatomic) CardMatchingGame *game;
 
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
@@ -34,36 +33,24 @@
   self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
 }
 
--(IBAction)flipCard:(UIButton *)sender {
-  sender.selected = !sender.isSelected;
-  self.flipCount++;
-}
-
--(IBAction)redrawCards:(UIButton *)sender {
-  if ([self.deck count] > [self.btnCards count]) {
-    [self newGame];
-  } else {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Enough Cards..."
-                                                    message:@"Wanna play again?"
-                                                   delegate:self
-                                          cancelButtonTitle:@"Quit"
-                                          otherButtonTitles:nil];
-    [alert addButtonWithTitle:@"Yes"];
-    [alert show];
-  }
-}
-
--(Deck *)deck{
-  if(!_deck){
-    _deck = [[PlayingCardDeck alloc] init];
-  }
-  return _deck;
-}
+//-(IBAction)redrawCards:(UIButton *)sender {
+//  if ([self.deck count] > [self.btnCards count]) {
+//    [self newGame];
+//  } else {
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Enough Cards..."
+//                                                    message:@"Wanna play again?"
+//                                                   delegate:self
+//                                          cancelButtonTitle:@"Quit"
+//                                          otherButtonTitles:nil];
+//    [alert addButtonWithTitle:@"Yes"];
+//    [alert show];
+//  }
+//}
 
 -(CardMatchingGame *)game{
   if(!_game){
     _game = [[CardMatchingGame alloc] initWithCardCount:self.btnCards.count
-                                              usingDeck:self.deck];
+                                              usingDeck:[[PlayingCardDeck alloc]init]];
   }
   return _game;
 }
@@ -77,15 +64,29 @@
 -(void)setBtnCards:(NSArray *)btnCards{
   _btnCards = btnCards;
   [self updateUI];
-//  for (UIButton *btnCard in self.btnCards) {
-//    [btnCard setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents]
-//             forState:UIControlStateSelected];
-//  }
-//  [self setCardsLeftLabel];
 }
 
 -(void)updateUI{
-  
+  for(UIButton *btnCard in self.btnCards){
+    Card *card = [self.game cardAtIndex:[self.btnCards indexOfObject:btnCard]];
+    
+    [btnCard setTitle:card.contents
+             forState:UIControlStateSelected];
+    [btnCard setTitle:card.contents
+             forState:UIControlStateSelected|UIControlStateDisabled];
+    
+    btnCard.selected = card.isFaceUp;
+    btnCard.enabled = !card.isUnplayable;
+    btnCard.alpha = card.isUnplayable? 0.5 : 1.0;
+    
+  }
+    
+}
+
+-(IBAction)flipCard:(UIButton *)sender {
+  [self.game flipCardAtIndex:[self.btnCards indexOfObject:sender]];
+  self.flipCount++;
+  [self updateUI];
 }
 
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
@@ -98,8 +99,8 @@
   [self turnBackCards];
 }
 
--(void)setCardsLeftLabel{
-  self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
-}
-  
+//-(void)setCardsLeftLabel{
+//  self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
+//}
+
 @end
