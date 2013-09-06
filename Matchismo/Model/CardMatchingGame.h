@@ -3,12 +3,20 @@
 //  Matchismo
 //
 //  Created by Leonardo on 9/4/13.
-//  Copyright (c) 2013 leomilrib. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "PlayingCardDeck.h"
+#import "Deck.h"
 
 @interface CardMatchingGame : NSObject
+
+-(id)initWithCardCount:(NSUInteger)cardCount
+               usingDeck:(Deck *)deck;
+
+-(void)flipCardAtIndex:(NSUInteger)index;
+
+-(Card *)cardAtIndex:(NSUInteger)index;
+
+@property (nonatomic,readonly) int score;
 
 @end

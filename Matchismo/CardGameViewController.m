@@ -7,7 +7,7 @@
 
 #import "CardGameViewController.h"
 #import "PlayingCardDeck.h"
-//#import "CardMatchingGame.h"
+#import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
 
@@ -26,8 +26,6 @@
 
 -(void) viewDidLoad {
   [super viewDidLoad];
-  [self newDeck];
-  [self setCardsOnTable];
 }
 
 -(void)setFlipCount:(int)flipCount{
@@ -49,15 +47,16 @@
                                                    delegate:self
                                           cancelButtonTitle:@"Quit"
                                           otherButtonTitles:nil];
-    
-    // optional - add more buttons:
     [alert addButtonWithTitle:@"Yes"];
     [alert show];
   }
 }
 
--(void)newDeck{
-  self.deck = [[PlayingCardDeck alloc] init];
+-(Deck *)deck{
+  if(!_deck){
+    _deck = [[PlayingCardDeck alloc] init];
+  }
+  return _deck;
 }
 
 -(void)turnBackCards{
@@ -66,7 +65,8 @@
   }
 }
 
--(void)setCardsOnTable{
+-(void)setBtnCards:(NSArray *)btnCards{
+  _btnCards = btnCards;
   for (UIButton *btnCard in self.btnCards) {
     [btnCard setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents]
              forState:UIControlStateSelected];
@@ -76,14 +76,12 @@
 
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
   if (buttonIndex == 1) {
-    [self newDeck];
     [self newGame];
   }
 }
 
 -(void)newGame{
   [self turnBackCards];
-  [self setCardsOnTable];
 }
 
 -(void)setCardsLeftLabel{
