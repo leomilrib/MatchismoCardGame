@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA19F0F617D7ED5E002CB679 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EA19F0F517D7ED5E002CB679 /* CardMatchingGame.m */; };
+		EA19F0FB17DA2B3F002CB679 /* android_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA19F0FA17DA2B3F002CB679 /* android_icon.png */; };
 		EA642F4217D65B080079F156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA642F4117D65B080079F156 /* Foundation.framework */; };
 		EA642F4417D65B080079F156 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA642F4317D65B080079F156 /* CoreGraphics.framework */; };
 		EA642F4617D65B080079F156 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA642F4517D65B080079F156 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		EA19F0F417D7ED45002CB679 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		EA19F0F517D7ED5E002CB679 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
+		EA19F0FA17DA2B3F002CB679 /* android_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_icon.png; sourceTree = "<group>"; };
 		EA642F3E17D65B080079F156 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA642F4117D65B080079F156 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA642F4317D65B080079F156 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,16 +130,15 @@
 			isa = PBXGroup;
 			children = (
 				EA642F5317D65B080079F156 /* Main.storyboard */,
-				EA642F7E17D682460079F156 /* PlayingCard.h */,
-				EA642F7F17D682460079F156 /* PlayingCard.m */,
-				EA642F8117D682640079F156 /* PlayingCardDeck.h */,
-				EA642F8217D682A50079F156 /* PlayingCardDeck.m */,
+				EA19F0F417D7ED45002CB679 /* CardMatchingGame.h */,
+				EA19F0F517D7ED5E002CB679 /* CardMatchingGame.m */,
 				EA642F7C17D66FD90079F156 /* Model */,
 				EA642F5617D65B080079F156 /* CardGameViewController.h */,
 				EA642F5717D65B080079F156 /* CardGameViewController.m */,
 				EA642F5017D65B080079F156 /* CardGameAppDelegate.h */,
 				EA642F5117D65B080079F156 /* CardGameAppDelegate.m */,
 				EA642F5917D65B080079F156 /* Images.xcassets */,
+				EA19F0FA17DA2B3F002CB679 /* android_icon.png */,
 				EA642F4817D65B080079F156 /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -175,8 +176,10 @@
 		EA642F7C17D66FD90079F156 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EA19F0F417D7ED45002CB679 /* CardMatchingGame.h */,
-				EA19F0F517D7ED5E002CB679 /* CardMatchingGame.m */,
+				EA642F7E17D682460079F156 /* PlayingCard.h */,
+				EA642F7F17D682460079F156 /* PlayingCard.m */,
+				EA642F8117D682640079F156 /* PlayingCardDeck.h */,
+				EA642F8217D682A50079F156 /* PlayingCardDeck.m */,
 				EA642F7617D66F7C0079F156 /* Card.h */,
 				EA642F7717D66F7C0079F156 /* Card.m */,
 				EA642F7917D66FB40079F156 /* Deck.h */,
@@ -265,6 +268,7 @@
 				EA642F5A17D65B080079F156 /* Images.xcassets in Resources */,
 				EA642F4C17D65B080079F156 /* InfoPlist.strings in Resources */,
 				EA642F5517D65B080079F156 /* Main.storyboard in Resources */,
+				EA19F0FB17DA2B3F002CB679 /* android_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
