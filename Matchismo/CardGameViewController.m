@@ -17,6 +17,7 @@
 @property (nonatomic) int flipCount;
 
 @property (weak, nonatomic) IBOutlet UILabel *cardsLeftLabel;
+@property (weak, nonatomic) IBOutlet UILabel *gamePointsLabel;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *btnCards;
 
@@ -79,6 +80,9 @@
     btnCard.enabled = !card.isUnplayable;
     btnCard.alpha = card.isUnplayable? 0.5 : 1.0;
     
+    self.gamePointsLabel.text = [NSString stringWithFormat:@"Points: %d", self.game.score];
+//    self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
+    
   }
     
 }
@@ -100,7 +104,7 @@
 }
 
 //-(void)setCardsLeftLabel{
-//  self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
+//
 //}
 
 @end
