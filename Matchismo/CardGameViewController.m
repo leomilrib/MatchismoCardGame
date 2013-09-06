@@ -12,6 +12,7 @@
 @interface CardGameViewController ()
 
 @property (strong, nonatomic) PlayingCardDeck *deck;
+@property (strong, nonatomic) CardMatchingGame *game;
 
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
@@ -59,6 +60,14 @@
   return _deck;
 }
 
+-(CardMatchingGame *)game{
+  if(!_game){
+    _game = [[CardMatchingGame alloc] initWithCardCount:self.btnCards.count
+                                              usingDeck:self.deck];
+  }
+  return _game;
+}
+
 -(void)turnBackCards{
   for (UIButton *btnCard in self.btnCards) {
     btnCard.selected = NO;
@@ -67,11 +76,16 @@
 
 -(void)setBtnCards:(NSArray *)btnCards{
   _btnCards = btnCards;
-  for (UIButton *btnCard in self.btnCards) {
-    [btnCard setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents]
-             forState:UIControlStateSelected];
-  }
-  [self setCardsLeftLabel];
+  [self updateUI];
+//  for (UIButton *btnCard in self.btnCards) {
+//    [btnCard setTitle:[NSString stringWithFormat:@"%@", self.deck.drawRandomCard.contents]
+//             forState:UIControlStateSelected];
+//  }
+//  [self setCardsLeftLabel];
+}
+
+-(void)updateUI{
+  
 }
 
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
