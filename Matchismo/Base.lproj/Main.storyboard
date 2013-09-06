@@ -340,6 +340,7 @@
                     <connections>
                         <outlet property="cardsLeftLabel" destination="iN9-qv-Ufu" id="lwW-xc-rzv"/>
                         <outlet property="flipsLabel" destination="xOo-ku-HcN" id="fpk-cZ-Bq0"/>
+                        <outlet property="gamePointsLabel" destination="Aua-xl-b4Q" id="Fkg-WZ-0a3"/>
                         <outletCollection property="btnCards" destination="QqW-jM-N8h" id="yFz-MD-Wpe"/>
                         <outletCollection property="btnCards" destination="l9u-SZ-cJ0" id="8rz-B3-jUR"/>
                         <outletCollection property="btnCards" destination="UFx-ep-JGc" id="pys-zC-ym9"/>
