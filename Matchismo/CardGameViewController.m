@@ -47,9 +47,6 @@
 //    [alert addButtonWithTitle:@"Yes"];
 //    [alert show];
 //  }
-  self.game = nil;
-  self.flipCount = 0;
-  [self updateUI];
   
 }
 
@@ -99,17 +96,15 @@
 }
 
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-  if (buttonIndex == 1) {
-    [self newGame];
+  if (buttonIndex == 1){
+    self.game = nil;
+    self.flipCount = 0;
+    [self updateUI];
   }
 }
 
 -(void)newGame{
   [self turnBackCards];
 }
-
-//-(void)setCardsLeftLabel{
-//
-//}
 
 @end
