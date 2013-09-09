@@ -18,6 +18,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *cardsLeftLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gamePointsLabel;
+//@property (nonatomic) int gamePoints;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *btnCards;
 
@@ -34,7 +35,7 @@
   self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
 }
 
-//-(IBAction)redrawCards:(UIButton *)sender {
+-(IBAction)redrawCards:(UIButton *)sender {
 //  if ([self.deck count] > [self.btnCards count]) {
 //    [self newGame];
 //  } else {
@@ -46,7 +47,11 @@
 //    [alert addButtonWithTitle:@"Yes"];
 //    [alert show];
 //  }
-//}
+  self.game = nil;
+  self.flipCount = 0;
+  [self updateUI];
+  
+}
 
 -(CardMatchingGame *)game{
   if(!_game){
