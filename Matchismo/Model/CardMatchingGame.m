@@ -9,6 +9,7 @@
 
 @interface CardMatchingGame()
 @property (strong, nonatomic) NSMutableArray *cards;
+@property (strong, nonatomic) PlayingCardDeck *deck;
 @property (nonatomic) int score;
 @end
 
@@ -25,11 +26,18 @@
   return _cards;
 }
 
--(id)initWithCardCount:(NSUInteger)cardCount usingDeck:(Deck *)deck{
+-(PlayingCardDeck *)deck{
+  if(!_deck){
+    _deck = [[PlayingCardDeck alloc] init];
+  }
+  return _deck;
+}
+
+-(id)initWithCardCount:(NSUInteger)cardCount{
   self = [super init];
   if(self){
     for(int i = 0; i < cardCount; i++){
-      Card *card = [deck drawRandomCard];
+      Card *card = [self.deck drawRandomCard];
       if(!card){
         self = nil;
       } else {
@@ -63,6 +71,17 @@
       self.score -= FLIP_COST;
     }
     card.faceUp = !card.isFaceUp;
+  }
+}
+
+-(int)count{
+  return [self.deck count];
+}
+
+-(void)redrawCards{
+  for(int i = 0; i < [self.cards count]; i++){
+    Card *card = [self.deck drawRandomCard];
+    self.cards[i] = card;
   }
 }
 

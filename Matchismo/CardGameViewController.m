@@ -6,7 +6,7 @@
 //
 
 #import "CardGameViewController.h"
-#import "PlayingCardDeck.h"
+//#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
@@ -18,7 +18,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *cardsLeftLabel;
 @property (weak, nonatomic) IBOutlet UILabel *gamePointsLabel;
-//@property (nonatomic) int gamePoints;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *btnCards;
 
@@ -36,24 +35,25 @@
 }
 
 -(IBAction)redrawCards:(UIButton *)sender {
-//  if ([self.deck count] > [self.btnCards count]) {
-//    [self newGame];
-//  } else {
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Enough Cards..."
-//                                                    message:@"Wanna play again?"
-//                                                   delegate:self
-//                                          cancelButtonTitle:@"Quit"
-//                                          otherButtonTitles:nil];
-//    [alert addButtonWithTitle:@"Yes"];
-//    [alert show];
-//  }
+  NSLog(@"%d", [self.game count]);
+  if ([self.game count] > [self.btnCards count]) {
+    [self newGame];
+  } else {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Enough Cards..."
+                                                    message:@"Wanna play again?"
+                                                   delegate:self
+                                          cancelButtonTitle:@"Quit"
+                                          otherButtonTitles:nil];
+    [alert addButtonWithTitle:@"Yes"];
+    [alert show];
+  }
+  [self updateUI];
   
 }
 
 -(CardMatchingGame *)game{
   if(!_game){
-    _game = [[CardMatchingGame alloc] initWithCardCount:self.btnCards.count
-                                              usingDeck:[[PlayingCardDeck alloc]init]];
+    _game = [[CardMatchingGame alloc] initWithCardCount:self.btnCards.count];
   }
   return _game;
 }
@@ -83,7 +83,7 @@
     btnCard.alpha = card.isUnplayable? 0.5 : 1.0;
     
     self.gamePointsLabel.text = [NSString stringWithFormat:@"Points: %d", self.game.score];
-//    self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.deck count]];
+    self.cardsLeftLabel.text = [NSString stringWithFormat:@"Cards Left: %d", [self.game count]];
     
   }
     
@@ -104,6 +104,7 @@
 }
 
 -(void)newGame{
+  [self.game redrawCards];
   [self turnBackCards];
 }
 

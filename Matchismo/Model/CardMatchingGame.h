@@ -6,16 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Deck.h"
+#import "PlayingCardDeck.h"
 
 @interface CardMatchingGame : NSObject
 
--(id)initWithCardCount:(NSUInteger)cardCount
-               usingDeck:(Deck *)deck;
+-(id)initWithCardCount:(NSUInteger)cardCount;
 
 -(void)flipCardAtIndex:(NSUInteger)index;
 
 -(Card *)cardAtIndex:(NSUInteger)index;
+
+-(int)count;
+
+-(void)redrawCards;
 
 @property (nonatomic,readonly) int score;
 
