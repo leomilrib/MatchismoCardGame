@@ -383,10 +383,10 @@
             </objects>
             <point key="canvasLocation" x="270" y="-76"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--View Controller - Records-->
         <scene sceneID="xFK-kv-9zY">
             <objects>
-                <viewController id="YIP-cw-NJ4" sceneMemberID="viewController">
+                <viewController title="Records" id="YIP-cw-NJ4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WZ6-it-jhL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
