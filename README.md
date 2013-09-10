@@ -10,7 +10,7 @@ This is a simple matching card to learn the basics of iOS development.
 The rules are really simple.  
 A set of 16 cards are displayed with the backs up on the table (four lines and
 columns). Your objective is to match cards by suit or rank.
-You can turn one card face up, look and turn it back with no points cost. Once
+You can turn one card face up, look and turn it back with cost of 2 points. Once
 you find a match, you can turn both cards face up and gain the respective
 points for the match:
 
