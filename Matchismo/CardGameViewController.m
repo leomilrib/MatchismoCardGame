@@ -6,7 +6,6 @@
 //
 
 #import "CardGameViewController.h"
-//#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface CardGameViewController ()
@@ -48,7 +47,6 @@
     [alert show];
   }
   [self updateUI];
-  
 }
 
 -(CardMatchingGame *)game{
@@ -75,6 +73,7 @@
     
     [btnCard setTitle:card.contents
              forState:UIControlStateSelected];
+      
     [btnCard setTitle:card.contents
              forState:UIControlStateSelected|UIControlStateDisabled];
     

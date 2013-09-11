@@ -15,9 +15,9 @@
 
 @implementation CardMatchingGame
 
-#define FLIP_COST 0
-#define MISMATCH_PENALTY 1
-#define MATCH_BONUS 1
+#define FLIP_COST 1
+#define MISMATCH_PENALTY -1
+#define MATCH_BONUS 2
 
 -(NSMutableArray *)cards{
   if(!_cards){
@@ -64,6 +64,8 @@
             otherCard.unplayable = YES;
             card.unplayable = YES;
             self.score += matchScore * MATCH_BONUS;
+          } else {
+            self.score += MISMATCH_PENALTY;
           }
           break;
         }
