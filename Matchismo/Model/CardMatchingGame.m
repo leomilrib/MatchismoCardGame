@@ -17,7 +17,7 @@
 
 #define FLIP_COST 1
 #define MISMATCH_PENALTY -1
-#define MATCH_BONUS 4
+#define MATCH_BONUS 2
 
 -(NSMutableArray *)cards{
   if(!_cards){

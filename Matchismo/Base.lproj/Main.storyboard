@@ -355,7 +355,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="XEN-Rj-aGp"/>
+                    <tabBarItem key="tabBarItem" title="Game" image="tab_alpha.png" id="XEN-Rj-aGp"/>
                     <connections>
                         <outlet property="cardsLeftLabel" destination="iN9-qv-Ufu" id="lwW-xc-rzv"/>
                         <outlet property="flipsLabel" destination="xOo-ku-HcN" id="fpk-cZ-Bq0"/>
@@ -391,7 +391,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="QUK-Kh-J6W"/>
+                    <tabBarItem key="tabBarItem" title="Records" image="trophy_icon.png" id="QUK-Kh-J6W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TxO-SQ-X0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -401,6 +401,8 @@
     <resources>
         <image name=" " width="16" height="16"/>
         <image name="android_icon.png" width="38" height="38"/>
+        <image name="tab_alpha.png" width="38" height="38"/>
+        <image name="trophy_icon.png" width="38" height="37"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

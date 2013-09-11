@@ -73,6 +73,7 @@
     
     [btnCard setTitle:card.contents
              forState:UIControlStateSelected];
+      
     [btnCard setTitle:card.contents
              forState:UIControlStateSelected|UIControlStateDisabled];
     
